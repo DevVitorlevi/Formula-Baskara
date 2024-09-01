@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Baskara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="asa.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <label> A:
+                <input type="number" name="ia" id="a"  placeholder="Ex: 4" >
+            </label>
+            <label> B:
+                <input type="number" name="b" id="b" placeholder="Ex: 3"  >
+            </label>
+            <label> C:
+                <input type="number" name="c" id="c" placeholder="Ex: 3"  ><br />
+            </label>
+            <input type="button" value="Calcular" id="button" onclick="Calcular()">
+            <input type="button" value="Limpar" onclick="Limpar()" id="button">
+        </form>
+        
+        <div class="res"> Resultado:</div>
+    </div>
+
+</body>
+
+</html>
